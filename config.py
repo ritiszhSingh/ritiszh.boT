@@ -16,7 +16,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://music:music@cluster0.cpkaz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5013661292").split()))
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5013661292").split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001457893155"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001776335996"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐑𝐢𝐓𝐢𝐒𝐳𝐡 𝐁𝐎𝐓")
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/9b74d0c1c95e5ed6124fa.jpg")
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
